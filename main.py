@@ -47,6 +47,6 @@ components.html(
    """,     
    height=600,
 
-  width=600,
+  width=1000,
     
 )
