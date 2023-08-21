@@ -6,7 +6,8 @@ st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootst
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #3498DB; height:95px;">
    <a class="navbar-brand" href="#" style="margin-top:30px;">
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ANTT-Data-Logo.svg&psig=AOvVaw1gpwR_QHouaxD3fEZ4QyQb&ust=1692694448036000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMDl_qyw7YADFQAAAAAdAAAAABAE" width="30" height="30" alt="">
+    <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    Bootstrap
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
