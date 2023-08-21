@@ -30,13 +30,7 @@ components.html(
             </button>
           </h5>
         </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-          <div class="card-body">
-            Collapsible Group Item #2 content
-          </div>
-        </div>
-      </div>
-    </div>
+        
     """,
     height=600,
 )
