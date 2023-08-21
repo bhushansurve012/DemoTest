@@ -18,19 +18,16 @@ st.markdown("""
         <a class="nav-link disabled" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
 
-      <li>
-    <div class="dropdown">
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Personal asset loans</a>
-      <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">            
-        <li><a href="#">asds</a></li>
-        <li class="divider"></li>
-      </ul>
-    </div>   
-    </li>
-    <li>Payday loans</li>
-  <li>About</li>
-  <li>Contact</li>
-
+   <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
       
     </ul>
 
