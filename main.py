@@ -45,6 +45,6 @@ components.html(
 </nav>
      
    """,     
-  
+   height=600,
     
 )
