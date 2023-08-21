@@ -39,26 +39,9 @@ components.html(
     <li>
       <a href="#" onclick="setURL('http://localhost:8501/?p=results')">Results</a>
     </li>
-    <li>
-      <a href="#" onclick="setURL('http://localhost:8501/?p=examples')">Examples</a>
-    </li>
+   
 
 
-  </ul>
-  <iframe src="http://localhost:8501/?p=home" id="streamlit_content" allowfullscreen frameborder="0"
-    wmode="transparent">
-    Your browser doesn't support iframes
-  </iframe>
-
-</body>
-<script>
-  function setURL(url) {
-    document.getElementById('streamlit_content').src = url;
-    console.log('Works!')
-  }
-</script>
-
-</html>
      
    """,     
   
