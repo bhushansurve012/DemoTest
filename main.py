@@ -62,5 +62,5 @@ components.html(
      
         
     """,
-    height=600,
+    
 )
