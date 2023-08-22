@@ -17,14 +17,15 @@ st.markdown("""
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li> 
-       <div style="text-align: center; margin-top: 100px;">
-    <label for="dropdown">Select a destination:</label>
-    <select id="dropdown" style="font-size: 16px;">
-      <option value="option1"><a href="https://www.example.com/destination1" style="text-decoration: none; color: inherit;">Option 1</a></option>
-      <option value="option2"><a href="https://www.example.com/destination2" style="text-decoration: none; color: inherit;">Option 2</a></option>
-      <option value="option3"><a href="https://www.example.com/destination3" style="text-decoration: none; color: inherit;">Option 3</a></option>
-      <option value="option4"><a href="https://www.example.com/destination4" style="text-decoration: none; color: inherit;">Option 4</a></option>
-    </select>
+       <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
   </div>
     </ul>
   </div>
