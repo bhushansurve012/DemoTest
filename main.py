@@ -18,16 +18,9 @@ st.markdown("""
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
         <!-- Add the selectbox in the navbar -->
-    <div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="contactDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Contact
-      </button>
-      <div class="dropdown-menu" aria-labelledby="contactDropdown">
-        <a class="dropdown-item" href="#">Email</a>
-        <a class="dropdown-item" href="#">Home phone</a>
-        <a class="dropdown-item" href="#">Mobile phone</a>
-      </div>
-    </div>
+    option = st.selectbox(
+    'How would you like to be contacted?',
+    ('Email', 'Home phone', 'Mobile phone'))
     </ul>
   </div>
 </nav>
