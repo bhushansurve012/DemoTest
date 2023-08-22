@@ -21,8 +21,8 @@ st.markdown("""
   </div>
 </nav>
 """, unsafe_allow_html=True)
-col1, col2 = st.columns(2)
-with col2:
+col1 = st.columns(1)
+with col1:
     option = st.selectbox(
         "How would you like to be contacted?",
         ("Email", "Home phone", "Mobile phone")
