@@ -40,5 +40,5 @@ components.html("""
     """,
     height=600,
     width=1000,
-    align=left,
+    align:left,
 )
