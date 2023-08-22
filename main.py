@@ -17,16 +17,12 @@ st.markdown("""
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li> 
-       <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
-        <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Page 1-1</a></li>
-          <li><a href="#">Page 1-2</a></li>
-          <li><a href="#">Page 1-3</a></li>
-        </ul>
-      </li>
-  </div>
+    <select class="form-select" aria-label="Default select example" style="margin-right:10px; bgcolor:grey;">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
     </ul>
   </div>
 </nav>
