@@ -23,7 +23,6 @@ st.markdown("""
   <option value="mercedes">Mercedes</option>
   <option value="audi">Audi</option>
 </select>
-
     </ul>
   </div>
 </nav>
