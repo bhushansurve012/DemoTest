@@ -27,9 +27,7 @@ st.markdown("""
     <a class="dropdown-item" href="#">Another action</a>
     <a class="dropdown-item" href="#">Something else here</a>
   </div>
-</div>
-     
-
+   </div>
     </ul>
   </div>
 </nav>
