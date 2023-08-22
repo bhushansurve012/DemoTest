@@ -17,14 +17,12 @@ st.markdown("""
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
-        <!-- Add the selectbox in the navbar -->
-    option = st.selectbox(
-    'How would you like to be contacted?',
-    ('Email', 'Home phone', 'Mobile phone'))
     </ul>
   </div>
 </nav>
-""", unsafe_allow_html=True)
+ option = st.selectbox(
+    'How would you like to be contacted?',
+    ('Email', 'Home phone', 'Mobile phone')) """, unsafe_allow_html=True)
 
 st.markdown('''# **Binance Price App**
 A simple cryptocurrency price app pulling price data from *Binance API*.
