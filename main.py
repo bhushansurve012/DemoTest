@@ -17,14 +17,12 @@ st.markdown("""
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li> 
-   <div  style="padding:30px; background-color:yellow;">
-    <select class="form-select" aria-label="Default select example">
+    <select class="form-select" aria-label="Default select example" form-select-bg:yellow>
   <option selected>Open this select menu</option>
   <option value="1">One</option>
   <option value="2">Two</option>
   <option value="3">Three</option>
 </select>
-</div>
     </ul>
   </div>
 </nav>
