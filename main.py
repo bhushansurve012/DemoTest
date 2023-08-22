@@ -17,20 +17,15 @@ st.markdown("""
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li> 
- <div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
+       <div style="text-align: center; margin-top: 100px;">
+    <label for="dropdown">Select a destination:</label>
+    <select id="dropdown" style="padding: 5px; font-size: 16px;">
+      <option value="option1"><a href="https://www.example.com/destination1" style="text-decoration: none; color: inherit;">Option 1</a></option>
+      <option value="option2"><a href="https://www.example.com/destination2" style="text-decoration: none; color: inherit;">Option 2</a></option>
+      <option value="option3"><a href="https://www.example.com/destination3" style="text-decoration: none; color: inherit;">Option 3</a></option>
+      <option value="option4"><a href="https://www.example.com/destination4" style="text-decoration: none; color: inherit;">Option 4</a></option>
+    </select>
   </div>
-</div>
     </ul>
   </div>
 </nav>
