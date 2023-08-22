@@ -59,4 +59,5 @@ components.html(
     </div>
     """,
     height=600,
+    width=700,
 )
