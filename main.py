@@ -38,9 +38,7 @@ components.html("""
   </div>
 </nav>
     """,
-    height=600,
-    width=1000,
+
                 
 )
-components.iframe("https://docs.streamlit.io/en/latest")
 
