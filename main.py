@@ -17,7 +17,7 @@ st.markdown("""
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li> 
-    <select class="form-select" aria-label="Default select example" form-select-bg:yellow>
+    <select class="form-select-bg:yellow" aria-label="Default select example">
   <option selected>Open this select menu</option>
   <option value="1">One</option>
   <option value="2">Two</option>
