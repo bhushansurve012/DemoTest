@@ -21,13 +21,12 @@ st.markdown("""
   </div>
 </nav>
 """, unsafe_allow_html=True)
-col1 = st.columns(2)
-with col1:
+col1, col2 = st.columns(2)
+with col2:
     option = st.selectbox(
         "How would you like to be contacted?",
-        ("Email", "Home phone", "Mobile phone")
+        ("Email", "Home phone", "Mobile phone"),
     )
-
 st.markdown('''# **Binance Price App**
 A simple cryptocurrency price app pulling price data from *Binance API*.
 ''')
