@@ -26,6 +26,7 @@ with col2:
     option = st.selectbox(
         "How would you like to be contacted?",
         ("Email", "Home phone", "Mobile phone"),
+       orientation = "horizontal",
     )
 st.markdown('''# **Binance Price App**
 A simple cryptocurrency price app pulling price data from *Binance API*.
