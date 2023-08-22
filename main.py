@@ -17,11 +17,18 @@ st.markdown("""
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li> 
+ <div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
   <div class="dropdown">
-   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">Models
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
   </div>
 </div>
     </ul>
