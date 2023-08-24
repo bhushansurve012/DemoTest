@@ -3,6 +3,9 @@ import pandas as pd
 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
+option = st.selectbox(
+    'How would you like to be contacted?',
+    ('Email', 'Home phone', 'Mobile phone'))
 html_temp= """
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style=" height:95px;">
    <a class="navbar-brand" href="#" style="margin-top:40px;">
