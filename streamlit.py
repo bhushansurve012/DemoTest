@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import base64
-import sklearn
+import scikit-learn
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
